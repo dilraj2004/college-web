@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Info</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: right;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            .active {
+                background-color: #04AA6D;
+            }
+            #footer {
+                position: fixed;
+                padding: 10px 10px 0px 10px;
+                bottom: 0;
+                width: 100%;
+                border: 1px solid gray;
+                /* Height of the footer*/
+                background-color: #f1f1f1;
+                height: 40px;
+                text-align: center;
+            }
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                text-align: center;
+            }
+
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+
+            div.desc {
+                padding: 15px;
+                text-align: center;
+            }
+
+            div.header {
+                text-align: center;
+            }
+        </style>
+    </head>
+</head>
+<body>
+<ul>
+    <li><a href="services.html">Services</a></li>
+    <li><a class="active" href="campusInfo.html">Campus Info</a></li>
+    <li><a href="index.html">Home</a></li>
+</ul>
+
+<div class="gallery">
+    <div class="header">
+        <h2>City Campus</h2>
+    </div>
+    <a>
+        <img src="assets/cityCampus.jpg" alt="City Campus" width="600px" height="400px">
+    </a>
+    <div class="desc">
+        <p>
+            Our term-time opening hours are:
+        </p>
+        <p>
+            Mon - Thurs:08:30 - 21:00
+        </p>
+        <p>
+            Friday:08:30 - 17:00
+        </p>
+        <p>
+            During holidays, the library is open from 09:00 to 17:00
+        </p>
+    </div>
+</div>
+<br/>
+<div class="gallery">
+    <div class="header">
+        <h2>Riverside Campus</h2>
+    </div>
+    <a>
+        <img src="assets/riversideCampus.jpg" alt="Riverside Campus" width="600" height="400">
+    </a>
+    <div class="desc">
+        <p>
+            Our term-time opening hours are:
+        </p>
+        <p>
+            Mon - Thurs:08:30 - 21:00
+        </p>
+        <p>
+            Friday:08:30 - 17:00
+        </p>
+        <p>
+            During holidays, the library is open from 09:00 to 16:30
+        </p>
+    </div>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div id="footer">
+    Author: Dilraj Singh Samra
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gardens Info</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #nav-ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        #nav-li {
+            float: right;
+        }
+
+        #nav-li2 {
+            float: right;
+        }
+
+        #nav-li3 {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            border: 1px solid gray;
+            /* Height of the footer*/
+            background-color: #f1f1f1;
+            height: 40px;
+            text-align: center;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        div.header {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<ul id="nav-ul">
+    <li id="nav-li"><a href="services.html">Services</a></li>
+    <li id="nav-li2"><a href="campusInfo.html">Campus Info</a></li>
+    <li id="nav-li3"><a href="index.html">Home</a></li>
+</ul>
+
+<div class="gallery">
+    <div class="header">
+        <h2>City Campus - Gardens</h2>
+    </div>
+    <a>
+        <img src="assets/cityCampus.jpg" alt="City Campus" width="600px" height="400px">
+    </a>
+    <div class="desc">
+        <p>
+            City campus has been meticulously designed to offer superb opportunities to our students and to meet and adapt to the changing needs of future generations
+        </p>
+        <p>
+            Roof gardens and two viewing terraces available.
+        </p>
+    </div>
+</div>
+<div id="footer">
+    Author: Dilraj Singh Samra
+</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        /* Style the header */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+        div {
+            padding: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        p {
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #008CBA;
+        }
+        #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            border: 1px solid gray;
+            /* Height of the footer*/
+            height: 40px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="campusInfo.html">Campus Info</a></li>
+    <li><a class="active" href="index.html">Home</a></li>
+</ul>
+<div>
+    <h2>Welcome to City of Glasgow College</h2>
+    <p>
+        City of Glasgow College is Scotland's largest technical and professional skills college.
+        Its award winning twin-site super campus in the heart if Glasgow offers outstanding resources
+        and opportunities for students to gain essential skills for their future careers.
+    </p>
+    <p>
+        Innovative approaches to teaching and learning enable personalised development across a range
+        of subjects on campus and online. Up to 8,000 graduates leave the college each year for the world of work,
+        with over 90% of successful students progressing directly to further learning, apprenticeships or employment.
+    </p>
+    <div style="text-align: center">
+        <img  src="assets/homeImage.jpg" alt="main campus"/>
+    </div>
+</div>
+<div id="footer">
+    Author: Dilraj Singh Samra
+</div>
+</body>
+
+</html>
